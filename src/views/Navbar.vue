@@ -1,7 +1,7 @@
 <template>
   <div>
     <el-menu :default-active="this.$router.path"
-             router="true"
+             router
              class="el-menu-demo"
              mode="horizontal"
              @select="handleSelect"
